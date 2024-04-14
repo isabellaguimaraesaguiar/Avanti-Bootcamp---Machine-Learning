@@ -1,0 +1,22 @@
+1. Explique, com suas palavras, o que é machine learning?
+    Para definir machine learning, primeiro devemos definir inteligência artificial, já que machine learning é uma área da inteligência artificial. Inteligência artificial
+    é qualquer técnica que permite que os computadores imitem o comportamento humano. Machine learning é qualquer técnica de inteligência artificial que dá aos computadores
+    a habilidade de aprender, fazer previsões e tomar decisões sem serem programados explicitamente programados para esse aprendizado.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
+    O conjunto de treinamento é a parte dos dados que será usada para treinar o modelo de machine learning. O modelo é exposto a esse conjunto para aprender sobre os dados para
+    aprender sobre os parâmentros e assim conseguir fazer previsões e tomar decisões. O conjunto de validação é usado para ajuste de hiperparâmetros do modelo e também para avaliar 
+    a performance do processo de treinamento. O conjunto de teste é usado para avaliar o desempenho final do modelo através da exposição inédita de dados, o que permite analisar o quão 
+    bom é a generalização do modelo para novos dados.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento.
+    Caso a quantidade de dados ausentes não seja significativa, eu removeria os registros que possuem valores ausentes. Caso os dados possuíssem informações significativas/fossem 
+    em quantidade significativa para amostra, eu preencheria os valores ausentes com valores padrão como a média e a mediana.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+    A matriz de confusão resume o desempenho de uma classificação em um conjunto de dados. Corresponde a uma tabela com tabulação cruzada de rótulos previstos (colunas) e 
+    rótulos reais (linhas). Nessa tabela, tem-se dados de verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos; a partir desses dados que é possível 
+    avaliar o desempenho de um modelo preditivo. A matriz de confusão é o material básico para a avaliação de performance.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar algoritmos de machine learning?
+    Saúde e finanças.
